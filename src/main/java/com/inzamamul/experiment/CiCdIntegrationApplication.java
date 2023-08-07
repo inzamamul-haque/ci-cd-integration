@@ -14,6 +14,11 @@ public class CiCdIntegrationApplication {
 		return "inzamamul";
 	}
 
+	@GetMapping("hello")
+	public String hello() {
+		return "inzamamul";
+	}
+
 	public static void main(String[] args) {
 		SpringApplication.run(CiCdIntegrationApplication.class, args);
 	}
