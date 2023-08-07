@@ -1,0 +1,13 @@
+package com.inzamamul.experiment;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class CiCdIntegrationApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+
+}
