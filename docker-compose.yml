@@ -1,0 +1,13 @@
+version: '2.0'
+services:
+    ci-cd-integration:
+        image: 'ci-cd-integration'
+        container_name: ci-cd-integration-container
+        environment:
+            - TZ=Asia/Dhaka
+        ports:
+            - "9081:9081"
+        restart: always
+        build:
+            context: "./"
+            dockerfile: "Dockerfile"
